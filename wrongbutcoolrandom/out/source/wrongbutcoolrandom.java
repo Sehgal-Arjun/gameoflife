@@ -24,8 +24,8 @@ Rules:
 4) A dead cell will be brought back to live if it has exactly three live neighbors
 */
 
-int windowsize = 1300;
-int cellsize = 4; // wimdowsize needs to evenly divide by cellsize and cannot be 1
+int windowsize = 1299;
+int cellsize = 3; // wimdowsize needs to evenly divide by cellsize and cannot be 1
 
 int[][] board = new int[windowsize/cellsize][windowsize/cellsize];
 
